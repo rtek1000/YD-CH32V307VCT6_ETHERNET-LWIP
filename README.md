@@ -5,3 +5,7 @@
 #### Code source:
 
 https://github.com/rtek1000/wch-ch32v307-lwip
+
+#### Schematic (Partial)
+
+![img](https://raw.githubusercontent.com/rtek1000/YD-CH32V307VCT6_ETHERNET-LWIP/refs/heads/main/IMG/CH32V307VCT6_partial_schematic.png)
