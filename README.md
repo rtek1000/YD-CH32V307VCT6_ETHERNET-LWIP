@@ -7,7 +7,7 @@
 https://github.com/rtek1000/wch-ch32v307-lwip
 
 Technical Summary: LwIP + FreeRTOS Portability (CH32V307)
-1. The MCU core files (vendor folder) have been updated, based on the [TCP server example](https://www.wch.cn/downloads/CH32V307EVT_ZIP.html) for MounRiver Studio.
+1. The MCU core files (vendor folder) have been updated, based on the [TCP server example](https://www.wch.cn/downloads/CH32V307EVT_ZIP.html) for [MounRiver Studio IDE](https://www.mounriver.com/download).
 
 2. Ethernet Driver & Internal PHY
 Hardware Identification: We confirmed that the board uses the internal 10Mbps PHY and that the RJ45 LEDs are mapped to Port C (PC0 and PC1), and not to Port B as in the WCH examples.
