@@ -32,6 +32,7 @@ Memory Diagnostics: We implemented FreeRTOS Heap monitoring and stack High Water
 ![img](https://raw.githubusercontent.com/rtek1000/YD-CH32V307VCT6_ETHERNET-LWIP/refs/heads/main/IMG/CH32V307VCT6_partial_schematic.png)
 
 #### Notes
+- - Compilation requires a toolchain: [MRS_Toolchain_Linux_X64_V240.tar.xz](https://www.mounriver.com/download) 
 - - The CH32V307VCT6 can be configured to operate in different operating modes with different ROM/RAM sizes. Configuration may be required via the WCH-LinkUtility program.
 - - Code adapted for the YD-CH32V307VCT6 board with the help of Gemini (Google AI) and ChatGPT.
 - - The TF card jumpers are off because Ethernet is in use. Unfortunately, the CH32V307VCT6 MCU has shared pins between the SD card and Ethernet. Perhaps the SD card could be adapted to use the SPI port.
