@@ -7,12 +7,7 @@
 https://github.com/rtek1000/wch-ch32v307-lwip
 
 Technical Summary: LwIP + FreeRTOS Portability (CH32V307)
-1. Startup Adjustments (Startup & Linker)
-Interrupt Vector: We corrected the startup_ch32v30x_D8C.S file to include the Software_Handler. Without it, FreeRTOS could not perform task switching (context switch).
-
-Software Bridge: We linked the Software_Handler to the vPortSoftwareInterruptHandler function and the SysTick_Handler to the xPortSysTickHandler to give "life" to the RTOS kernel.
-
-Memory (LD): We adjusted the Linker Script to ensure that the C stack and heap did not collide with the FreeRTOS Heap.
+1. The MCU core files (vendor folder) have been updated, based on the TCP server example for MounRiver Studio.
 
 2. Ethernet Driver & Internal PHY
 Hardware Identification: We confirmed that the board uses the internal 10Mbps PHY and that the RJ45 LEDs are mapped to Port C (PC0 and PC1), and not to Port B as in the WCH examples.
