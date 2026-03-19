@@ -33,7 +33,7 @@ Memory Diagnostics: We implemented FreeRTOS Heap monitoring and stack High Water
 
 #### Notes
 - - Compilation requires a toolchain: [MRS_Toolchain_Linux_X64_V240.tar.xz](https://www.mounriver.com/download) Using VsCode (Makefile).
-- - The CH32V307VCT6 can be configured to operate in different operating modes with different ROM/RAM sizes. Configuration may be required via the [WCH-LinkUtility program](https://raw.githubusercontent.com/rtek1000/YD-CH32V307VCT6_ETHERNET-LWIP/refs/heads/main/IMG/WCH-LinkUtility_v2_60.png). (See /vendor/Ld/Link.ld file)
+- - The CH32V307VCT6 can be configured to operate in different operating modes with different ROM/RAM sizes. Configuration may be required via the [WCH-LinkUtility program](https://raw.githubusercontent.com/rtek1000/YD-CH32V307VCT6_ETHERNET-LWIP/refs/heads/main/IMG/WCH-LinkUtility_v2_60.png). (See [/vendor/Ld/Link.ld file](https://github.com/rtek1000/YD-CH32V307VCT6_ETHERNET-LWIP/blob/main/wch-ch32v307-lwip/vendor/Ld/Link.ld))
 - - Code adapted for the YD-CH32V307VCT6 board with the help of Gemini (Google AI) and ChatGPT.
 - - The TF card jumpers are off because Ethernet is in use. Unfortunately, the CH32V307VCT6 MCU has shared pins between the SD card and Ethernet. Perhaps the SD card could be adapted to use the SPI port.
 - - This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
